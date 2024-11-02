@@ -1,0 +1,17 @@
+{
+  "name": "tarefas-backend",
+  "version": "1.0.0",
+  "description": "API para tarefas com Node.js e SQLite",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.2",
+    "cors": "^2.8.5"
+  }
+}
